@@ -1,0 +1,45 @@
+body{
+    background-color: black;
+}
+
+h1 {
+border-color:white;
+}
+
+
+a href{
+    text-decoration: line-through;
+}
+
+p{
+    padding: 20px ;
+    color: white;
+    text-align: center;
+}
+
+h2{
+    color: red;
+    text-align: center;
+}
+
+ol li{
+    font-family: 'Times New Roman', Times, serif;
+    color: blue;
+}
+
+
+
+em{
+    border: 10px;
+    color: aqua;
+}
+
+embed{
+    color: rgb(49, 9, 49);
+}
+
+href{
+    text-align: center;
+}
+
+
