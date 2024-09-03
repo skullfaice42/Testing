@@ -15,6 +15,7 @@ p{
     padding: 20px ;
     color: white;
     text-align: center;
+    background-color: purple;
 }
 
 h2{
@@ -29,17 +30,33 @@ ol li{
 
 
 
-em{
-    border: 10px;
-    color: aqua;
+em, strong{
+    background-color: rgb(11, 23, 31);
+    color: bisque;
+    display: block;
+    border: 30px;
+    /*note that in order to have the border, you have to assign a backround color, and change the 
+    display of it, and if you wanted to, you could also change the border size*/
 }
 
 embed{
     color: rgb(49, 9, 49);
 }
 
-href{
-    text-align: center;
+img {
+  display:block;
+  margin-left: auto;
+  margin-right: auto; /*you have to change the display to a block, that way you can start working with it,
+  function wise. then you need to change the margins of both the left and right side*/
+
+  /*using auto will automatically change it based on your website*/
+
 }
 
 
+
+h4{
+    background-color: azure;
+    text-align: center;
+    text-decoration: line-through; color: white;
+}
