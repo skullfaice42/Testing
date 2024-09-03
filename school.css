@@ -1,0 +1,16 @@
+img {
+    display: block;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    margin-left: 200px;
+    margin-right: 60px;
+  } /*the way i see this, all it really is is just a replacement
+  for <img>... like instead of using css with img, your using figure
+  
+  figure is sepperate from the website, you would use it 
+  to mark up a photo in a dociment*/
+
+
+  p{
+    size: 200px;
+  }
