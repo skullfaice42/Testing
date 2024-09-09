@@ -1,0 +1,16 @@
+body
+{
+    background-color: rgb(66, 83, 30);
+    color: rgb(0, 0, 0);
+}
+
+p{
+    border-radius: 300px;
+    display: block;
+    background-color: rgb(96, 96, 186);
+    color: rgb(14, 0, 16);
+    padding-left: 200px;
+    padding-right: 20px;
+    padding-top: 200px;
+    padding-bottom: 200px;
+}
