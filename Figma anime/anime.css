@@ -1,0 +1,83 @@
+/* General Styles */
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+header {
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    background-color: rgb(51, 2, 51);
+    border-radius: 5px;
+    width: 500px;
+    margin: 0 auto;
+    padding: 10px 0;
+}
+
+#favorites {
+    margin: 20px;
+    background-color: gray;
+    padding: 20px;
+    border-radius: 8px;
+    max-width: 600px;
+}
+
+.anime-container {
+    display: flex;
+    align-items: flex-start;
+}
+
+.img-container {
+    flex: 1;
+    padding-right: 20px;
+}
+
+img {
+    height: 200px;
+    border-radius: 8px;
+}
+
+.info-container {
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.name {
+    font-size: 30px;
+    background-color: rgb(51, 2, 51);
+    color: white;
+    text-align: center;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.genera, .ranking, .eps-time, .url, .tt {
+    background-color: white;
+    padding: 5px;
+    border-radius: 8px;
+}
+
+.genera, .ranking, .eps-time div, .url, .tt {
+    margin: 5px 0;
+}
+
+.eps-time {
+    display: flex;
+    justify-content: space-between;
+}
+
+.url a {
+    text-decoration: none;
+    color: rgb(51, 2, 51);
+    font-weight: bold;
+}
+
+.tt {
+    text-align: center;
+    font-weight: bold;
+    background-color: rgb(51, 2, 51);
+    color: white;
+    padding: 5px;
+}
