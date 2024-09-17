@@ -24,7 +24,8 @@ body{
     width: 250px;
     height: 250px;
     font-size: 20px;
-    background-color: violet;
+    background:linear-gradient(skyblue, rgb(34, 113, 34));
+    text-decoration: line-through; text-decoration-color: red;
     padding: 20px;
     margin-left: auto;
 }
@@ -35,4 +36,13 @@ body{
     font-size: 20px;
     background-color: rgb(13, 112, 82);
     margin-left: 250px;
+}
+#box3{
+    border-style:outset;
+    border-radius: 15px;
+    border-width: 15px;
+    border-color: rgb(32, 99, 102);
+    text-decoration-thickness: 20;
+    background-color: rgb(97, 174, 181);
+    color: rgb(0, 0, 0);
 }
