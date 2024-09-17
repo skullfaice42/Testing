@@ -1,0 +1,38 @@
+p{
+    border-style:outset ;
+    border-width: 30px;
+    border-color: green;
+    padding: 20px;
+    background-color: darkgreen;
+    color: white;
+    border-radius: 30px;
+    
+}
+/*body{
+    background-image: url(animeadult.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+}*/
+
+body{
+    margin: 0;
+}
+#box1{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 20px;
+    background-color: violet;
+    padding: 20px;
+    margin-left: auto;
+}
+#box2{
+    border: 5px solid;
+    width: 250px;
+    height: 250px;
+    font-size: 20px;
+    background-color: rgb(13, 112, 82);
+    margin-left: 250px;
+}
