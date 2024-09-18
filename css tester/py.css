@@ -3,7 +3,7 @@ p{
     border-width: 30px;
     border-color: green;
     padding: 20px;
-    background: linear-gradient(skyblue, rgb(146, 42, 42));
+    background: linear-gradient(to left, skyblue, rgb(146, 42, 42));
     border-radius: 30px;
     
 }
