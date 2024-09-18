@@ -3,8 +3,7 @@ p{
     border-width: 30px;
     border-color: green;
     padding: 20px;
-    background-color: darkgreen;
-    color: white;
+    background: linear-gradient(skyblue, rgb(146, 42, 42));
     border-radius: 30px;
     
 }
@@ -17,7 +16,12 @@ p{
 }*/
 
 body{
-    margin: 0;
+    margin-top: 400px;
+    background-image: url(swag\ mirimora.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
 }
 #box1{
     border: 5px solid;
@@ -34,7 +38,7 @@ body{
     width: 250px;
     height: 250px;
     font-size: 20px;
-    background-color: rgb(13, 112, 82);
+    background: linear-gradient(to left, skyblue, lightgreen);
     margin-left: 250px;
 }
 #box3{
