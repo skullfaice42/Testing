@@ -1,0 +1,54 @@
+*{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: purple;
+}
+h1{
+    text-align: center;
+    width: 600px;
+    margin: 0 auto;
+    background-color: black;
+    color: white;
+    border-radius: 8px;
+}
+body > p{
+    background-color: black;
+    color: white;
+    text-align: center;
+    width: 250px;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 10px;
+}
+h2{
+    background-color: white;
+    width: 400px;
+    text-align: center;
+    border-radius: 8px;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+#flex-daddy{
+    display: flex;
+    align-items: center; /* centers the content */
+    border:ridge rgb(130, 93, 172) 20px;
+    justify-content: center; /* centers the text */
+}
+.left > p{
+    background-color: black;
+    color: white;
+    width: 500px;
+    line-height: 1.6em;
+    height: 200px;
+    justify-content: center;
+    align-items: center;
+    /*margin-left: 150px;  yeah so i dont know how to center my text */
+}
+img.images{
+    height: 200px;
+}
+
+.button{
+    background-color: rgb(190, 118, 204);
+    height: 20px;
+}
