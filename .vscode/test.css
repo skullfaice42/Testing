@@ -1,0 +1,20 @@
+.main{
+    background-color: rgba(43, 0, 255, 0.178);
+    width: 30%;
+    margin: 0 auto;
+}
+.card-1 h2{
+    background-color: rgb(18, 164, 164);
+}
+.card-1 p{
+    background-color: blueviolet;
+    height: 300px;
+    /* width: auto; */
+    width: 200px;
+    border-radius: 10px;
+    padding: 10px;
+}
+.one{
+    display: flex;
+    justify-content: space-around;
+}
