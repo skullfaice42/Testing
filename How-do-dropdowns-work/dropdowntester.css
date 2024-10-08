@@ -1,0 +1,38 @@
+.top-five-boxes-two{
+    display: flex;
+    justify-content: space-around;
+}
+.box-large{
+    /* justify-content: center; */
+    /* margin: 0 auto; */
+    background-color: #87433796;
+    /* width: 30%; */
+    padding: 10px;
+    border-radius: 10px;
+    /* justify-content: center; */
+    /* align-items: center; */
+    /* and... again why no center? */
+    justify-items: center;
+    justify-content: center;
+}
+.box-large h2{
+    background-color: #896b66c7;
+    width: 20%;
+    border-radius: 10px;
+    margin: 0 auto;
+    text-align: center;
+    /* bruh really...? CENTER AHHH */
+}
+.box-large .img-for-large-card{
+    width: 800px;
+/* size to whatever you have it set to */
+}
+.triangle{
+    width: 0px;
+    height: 0px;
+    /* border-left: solid #4400ff96; */
+    border-left: solid transparent;
+    border-right: solid transparent;
+    border-top: 10px solid #ffffffc7;
+    margin: 0 auto;
+}
