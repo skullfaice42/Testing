@@ -1,52 +1,51 @@
-body {
-    font-family: Arial, sans-serif;
-}
-
+/* Style the dropdown container */
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
+/* Style the dropdown button */
 .dropbtn {
     background-color: #4CAF50;
     color: white;
-    padding: 10px 16px;
+    padding: 16px;
     font-size: 16px;
     border: none;
     cursor: pointer;
-    position: relative; /* Required for positioning the triangle */
+    border-radius: 5px;
 }
 
-.triangle {
-    display: inline-block;
-    width: 0;
-    height: 0;
-    border-left: 5px solid transparent;
-    border-right: 5px solid transparent;
-    border-top: 5px solid white; /* Color of the triangle */
-    margin-left: 8px; /* Space between button text and triangle */
-}
-
+/* Dropdown content (hidden by default) */
 .dropdown-content {
     display: none;
     position: absolute;
-    background-color: #f9f9f9;
+    background-color: #f1f1f1;
     min-width: 160px;
-    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
     z-index: 1;
+    border-radius: 5px;
 }
 
+/* Links inside the dropdown */
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
     text-decoration: none;
     display: block;
+    border-bottom: 1px solid #ddd;
 }
 
+/* Change color of dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: #f1f1f1;
+    background-color: #ddd;
 }
 
+/* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display: block;
+}
+
+/* Change the background color of the button when hovered over */
+.dropdown:hover .dropbtn {
+    background-color: #3e8e41;
 }
