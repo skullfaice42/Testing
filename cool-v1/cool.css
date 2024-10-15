@@ -1,0 +1,16 @@
+h1{
+    background-color: rgba(0, 0, 0, 0.373);
+    /* width: auto; */
+    position: fixed;
+    border-radius: 10px;
+    padding: 10px;
+    justify-content: center;
+    text-align: center;
+    margin: 0 auto;
+    /* justify-content: baseline; */
+    align-items: center;
+}
+h1: :hover{
+    transform: scale(1.1);
+    background-color: #0056b3;
+}
